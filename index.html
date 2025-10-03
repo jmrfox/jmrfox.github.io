@@ -1,7 +1,75 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Personal site of Your Name. Engineering, projects, and writing." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Your Name — Portfolio" />
+  <meta property="og:description" content="Personal site of Your Name. Engineering, projects, and writing." />
+  <meta name="theme-color" content="#0b0d10" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <meta name="color-scheme" content="dark light" />
+  <style>/* Optional print-friendly tweak */ @media print { header, .cta a[href^="#"], nav { display:none !important; } }</style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+  <header>
+    <div class="container navbar">
+      <div class="brand">Your Name</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="about">
+      <span class="kicker">Software Engineer</span>
+      <h1>Hi, I’m Your Name.</h1>
+      <p class="lead">I design and build performant, reliable software. I enjoy shipping pragmatic solutions, clear interfaces, and helpful docs.</p>
+      <div class="cta">
+        <a class="button primary" href="mailto:you@example.com">Email me</a>
+        <a class="button" href="https://www.linkedin.com/in/yourhandle" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="button" href="https://github.com/yourhandle" target="_blank" rel="noopener">GitHub</a>
+        <a class="button" href="/resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h2>Selected Projects</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Project One</h3>
+          <p>One-liner about the problem, approach, and impact. Tech: X, Y, Z.</p>
+          <a href="#" target="_blank" rel="noopener">View project →</a>
+        </article>
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>What you built and why it mattered. Tech: A, B, C.</p>
+          <a href="#" target="_blank" rel="noopener">View project →</a>
+        </article>
+        <article class="card">
+          <h3>Project Three</h3>
+          <p>Key metrics, scale, or unique constraints. Tech: D, E, F.</p>
+          <a href="#" target="_blank" rel="noopener">View project →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Get in touch</h2>
+      <div class="card">
+        <p>Currently open to collaborating on interesting problems and roles.</p>
+        <p><strong>Email:</strong> <a href="mailto:you@example.com">you@example.com</a></p>
+        <p><strong>Elsewhere:</strong> <a href="https://github.com/yourhandle" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/yourhandle" target="_blank" rel="noopener">LinkedIn</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© 2025 Your Name</div>
+  </footer>
