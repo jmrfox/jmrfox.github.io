@@ -49,36 +49,17 @@
       .join("");
   }
 
-  function renderPapers(papers) {
-    return papers
-      .map(function (p) {
-        var meta = renderMeta([String(p.year), p.venue]);
-        return renderCard(p.title, p.url, meta, p.note, p.tags);
-      })
-      .join("");
+  function renderResearchItem(item) {
+    var meta = renderMeta([String(item.year), item.venue]);
+    return renderCard(item.title, item.url, meta, item.note, item.tags);
   }
 
-  function renderPresentations(items) {
-    return items
-      .map(function (p) {
-        var meta = renderMeta([String(p.year), p.venue]);
-        return renderCard(p.title, p.url, meta, p.note, p.tags);
-      })
-      .join("");
-  }
-
-  function renderHighlights(items) {
-    return items
-      .map(function (h) {
-        return (
-          '<article class="card highlight-card">' +
-          "<h3>" + escapeHtml(h.title) + "</h3>" +
-          "<p>" + escapeHtml(h.description) + "</p>" +
-          renderTags(h.tags) +
-          "</article>"
-        );
-      })
-      .join("");
+  function renderResearch(papers, presentations) {
+    var items = papers.concat(presentations);
+    items.sort(function (a, b) {
+      return b.year - a.year;
+    });
+    return items.map(renderResearchItem).join("");
   }
 
   function loadJson(path) {
@@ -95,16 +76,15 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     Promise.all([
-      loadJson("data/highlights.json"),
       loadJson("data/projects.json"),
+      loadJson("data/fun-projects.json"),
       loadJson("data/papers.json"),
       loadJson("data/presentations.json"),
     ])
       .then(function (results) {
-        mount("highlights-grid", renderHighlights(results[0]));
-        mount("projects-grid", renderProjects(results[1]));
-        mount("papers-grid", renderPapers(results[2]));
-        mount("presentations-grid", renderPresentations(results[3]));
+        mount("projects-grid", renderProjects(results[0]));
+        mount("fun-projects-grid", renderProjects(results[1]));
+        mount("research-grid", renderResearch(results[2], results[3]));
       })
       .catch(function (err) {
         console.error(err);

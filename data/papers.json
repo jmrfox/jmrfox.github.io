@@ -1,10 +1,18 @@
 [
   {
+    "title": "MASCAF: A Cable Model Fitting Pipeline for Topologically Complex Surface Meshes",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.05.10.721501v1",
+    "year": 2026,
+    "venue": "BioRxiv",
+    "tags": ["Computational Neuroscience"],
+    "note": "Robust fitting of simulation morphologies to topologically complex surface meshes."
+  },
+  {
     "title": "Restricted Boltzmann Machines Propagators for Auxiliary Field Diffusion Monte Carlo",
     "url": "https://arxiv.org/abs/2407.14632",
     "year": 2024,
     "venue": "arXiv",
-    "tags": ["Nuclear Physics", "Machine Learning"],
+    "tags": ["Nuclear Physics", "Quantum Monte Carlo"],
     "note": "Work from the theoretical physics group at Argonne National Laboratory."
   },
   {
@@ -12,7 +20,7 @@
     "url": "https://arxiv.org/abs/2403.16389",
     "year": 2024,
     "venue": "arXiv",
-    "tags": ["Nuclear Physics", "Machine Learning"],
+    "tags": ["Nuclear Physics", "Generative Adversarial Networks"],
     "note": "Half of my PhD dissertation. Deep learning models for nuclear scattering data."
   },
   {
@@ -20,7 +28,7 @@
     "url": "https://arxiv.org/abs/2206.14956",
     "year": 2022,
     "venue": "arXiv",
-    "tags": ["Nuclear Physics"],
+    "tags": ["Nuclear Physics", "Uncertainty Quantification"],
     "note": "The other half of my PhD dissertation. Uncertainty quantification in the nuclear shell model."
   },
   {
@@ -28,7 +36,7 @@
     "url": "https://scholarship.claremont.edu/cgu_etd/445/",
     "year": 2022,
     "venue": "Dissertation",
-    "tags": ["Nuclear Physics", "Machine Learning"],
+    "tags": [],
     "note": "My PhD dissertation."
   }
 ]

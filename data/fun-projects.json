@@ -1,0 +1,23 @@
+[
+  {
+    "name": "terraforge",
+    "url": "https://github.com/jmrfox/terraforge",
+    "description": "2D landscape generation.",
+    "language": "Rust",
+    "tags": ["Procedural Generation", "Games"]
+  },
+  {
+    "name": "circlesearch",
+    "url": "https://github.com/jmrfox/circlesearch",
+    "description": "Jon Wild circle problem.",
+    "language": "Python",
+    "tags": ["Geometry", "Puzzles"]
+  },
+  {
+    "name": "graph-dynamics-sandbox",
+    "url": "https://github.com/jmrfox/graph-dynamics-sandbox",
+    "description": "Pedagogical toy for dynamical systems on graphs.",
+    "language": "Rust",
+    "tags": ["Dynamical Systems"]
+  }
+]

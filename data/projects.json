@@ -1,5 +1,19 @@
 [
   {
+    "name": "MASCAF",
+    "url": "https://gitlab.com/penalab/mascaf",
+    "description": "Robust pipeline for fitting cable models to topologically complex surface meshes.",
+    "language": "Python",
+    "tags": ["Computational Neuroscience"]
+  },
+  {
+    "name": "pymcfs",
+    "url": "https://gitlab.com/penalab/pymcfs",
+    "description": "Python tools for multi-compartment cable fitting and morphology workflows.",
+    "language": "Python",
+    "tags": ["Computational Neuroscience"]
+  },
+  {
     "name": "swctools",
     "url": "https://github.com/jmrfox/swctools",
     "description": "Handling of SWC-format neuronal morphology data.",
@@ -7,38 +21,24 @@
     "tags": ["Neuroscience"]
   },
   {
+    "name": "spinegen",
+    "url": "https://github.com/jmrfox/spinegen",
+    "description": "Algorithmic generation of neural spine cable-graphs.",
+    "language": "Python",
+    "tags": ["Neuroscience"]
+  },
+  {
+    "name": "nexa",
+    "url": "https://github.com/jmrfox/nexa",
+    "description": "Experimental programming language inspired by neural statistics.",
+    "language": "Rust",
+    "tags": ["Neuroscience", "Language"]
+  },
+  {
     "name": "jscip",
     "url": "https://github.com/jmrfox/jscip",
     "description": "Tools for management of numerical parameters for scientific simulations.",
     "language": "Python",
     "tags": ["General"]
-  },
-  {
-    "name": "mcf2swc",
-    "url": "https://gitlab.com/penalab/mcf2swc",
-    "description": "Robust pipeline for skeletonization of neurite meshes. See my SfN 2025 poster.",
-    "language": "Python",
-    "tags": ["Neuroscience"]
-  },
-  {
-    "name": "CompNeuro Software Wiki",
-    "url": "https://github.com/jmrfox/compneuro_software_wiki/wiki",
-    "description": "Wiki for modern computational neuroscience software organized by problem and application.",
-    "language": "Wiki",
-    "tags": ["Neuroscience", "General"]
-  },
-  {
-    "name": "Pypet Rebuild",
-    "url": "https://github.com/jmrfox/pypet_rebuild",
-    "description": "Rebuild of the pypet library for parameter sweeps and parallelization.",
-    "language": "Python",
-    "tags": ["General"]
-  },
-  {
-    "name": "spinbox",
-    "url": "https://github.com/jmrfox/spinbox",
-    "description": "Framework for calculations related to quantum Monte Carlo simulations, particularly imaginary-time Green's functions.",
-    "language": "Python",
-    "tags": ["Nuclear Physics"]
   }
 ]
