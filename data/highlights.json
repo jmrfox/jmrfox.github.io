@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Auditory Neuroscience Pipeline",
+    "description": "Postdoc at Albert Einstein College of Medicine — high-resolution morphology-accurate biophysical simulation of barn owl sound-localization neurons.",
+    "tags": ["Neuroscience"]
+  },
+  {
+    "title": "DOE SCGF Fellow",
+    "description": "USDOE Office of Science Graduate Fellowship at Lawrence Livermore National Laboratory, theoretical nuclear physics group.",
+    "tags": ["Nuclear Physics"]
+  },
+  {
+    "title": "PhD in Computational Science",
+    "description": "Deep learning for nuclear scattering data and uncertainty quantification in the empirical shell model.",
+    "tags": ["Nuclear Physics", "Machine Learning"]
+  },
+  {
+    "title": "Neural Network QMC",
+    "description": "Postdoc at Argonne National Laboratory — neural network-based improvements for large-scale quantum Monte Carlo simulations.",
+    "tags": ["Nuclear Physics", "Machine Learning"]
+  }
+]

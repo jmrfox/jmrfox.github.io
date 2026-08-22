@@ -1,0 +1,44 @@
+[
+  {
+    "name": "swctools",
+    "url": "https://github.com/jmrfox/swctools",
+    "description": "Handling of SWC-format neuronal morphology data.",
+    "language": "Python",
+    "tags": ["Neuroscience"]
+  },
+  {
+    "name": "jscip",
+    "url": "https://github.com/jmrfox/jscip",
+    "description": "Tools for management of numerical parameters for scientific simulations.",
+    "language": "Python",
+    "tags": ["General"]
+  },
+  {
+    "name": "mcf2swc",
+    "url": "https://gitlab.com/penalab/mcf2swc",
+    "description": "Robust pipeline for skeletonization of neurite meshes. See my SfN 2025 poster.",
+    "language": "Python",
+    "tags": ["Neuroscience"]
+  },
+  {
+    "name": "CompNeuro Software Wiki",
+    "url": "https://github.com/jmrfox/compneuro_software_wiki/wiki",
+    "description": "Wiki for modern computational neuroscience software organized by problem and application.",
+    "language": "Wiki",
+    "tags": ["Neuroscience", "General"]
+  },
+  {
+    "name": "Pypet Rebuild",
+    "url": "https://github.com/jmrfox/pypet_rebuild",
+    "description": "Rebuild of the pypet library for parameter sweeps and parallelization.",
+    "language": "Python",
+    "tags": ["General"]
+  },
+  {
+    "name": "spinbox",
+    "url": "https://github.com/jmrfox/spinbox",
+    "description": "Framework for calculations related to quantum Monte Carlo simulations, particularly imaginary-time Green's functions.",
+    "language": "Python",
+    "tags": ["Nuclear Physics"]
+  }
+]

@@ -1,20 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Jordan M. R. Fox, PhD</title>
-  <meta name="description" content="Personal site of Jordan M. R. Fox, PhD, computational scientist." />
+  <meta name="description"
+    content="Jordan M. R. Fox, PhD — computational neuroscientist and software developer. Research in auditory neuroscience, nuclear physics, and machine learning." />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Jordan M. R. Fox" />
-  <meta property="og:description" content="Personal site of Jordan M. R. Fox, PhD, computational scientist." />
-  <meta name="theme-color" content="#000000" />
+  <meta property="og:title" content="Jordan M. R. Fox, PhD" />
+  <meta property="og:description"
+    content="Computational neuroscientist. Research in auditory neuroscience, nuclear physics, and open-source scientific software." />
+  <meta name="theme-color" content="#1c1917" />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=VT323&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="assets/styles.css" />
-  <meta name="color-scheme" content="dark light" />
+  <meta name="color-scheme" content="dark" />
   <style>
-    /* Optional print-friendly tweak */
     @media print {
 
       header,
@@ -32,7 +37,8 @@
       <div class="brand">Jordan M. R. Fox, PhD <span class="cursor"></span></div>
       <nav>
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#software">Software</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -40,113 +46,129 @@
 
   <main class="container">
     <section class="hero" id="about">
-      <!-- <span class="kicker">Computational Scientist and Researcher</span> -->
-      <h1>Hi, I’m Jordan!</h1>
-      <img src="assets/me.png" alt="Portrait" class="avatar" />
-      <p class="lead">I am a computational scientist with expertise in mathematics, neuroscience, and physics.
-        Currently, I am a postdoctoral researcher in neuroscience at Albert Einstein College of Medicine in New York
-        City, where I study
-        neural function related to sound localization in the auditory system of the barn owl.
-        <br><br>
-        I received a Bachelor's of Science in Physics and Mathematics from Seattle University.
-        I received my PhD in computational science from the joint program between San Diego State University and
-        Claremont Graduate University in California.
-        During that program, I was supported by the USDOE Office of Science Graduate Fellowship, working in tandem with
-        the theoretical nuclear physics group at Lawrence Livermore National Laboratory. My dissertation focused on
-        data-driven methods for theoretical
-        nuclear physics: deep learning models for nuclear scattering data, and uncertainty quantification for
-        large-scale
-        calculations in the empirical shell model.
-        After graduation, I worked as a postdoctoral researcher at Argonne National Laboratory, where I developed
-        neural network-based improvemenets for large-scale quantum Monte Carlo simulations.
-        <br><br>
-        While at Argonne, I decided to transition from physics into computational neuroscience, and I had the
-        opportunity to do a postdoctoral fellowship at Albert Einstein College of Medicine, where I am now.
-        At Einstein, I have developed a robust computational pipeline for high-resolution morphology-accurate
-        biophysical simulation of auditory neurons in the barn owl sound-localization system.
-      </p>
-      <div class="cta">
-        <a class="button primary" href="mailto:jordanmrfox@gmail.com">Email me</a>
-        <a class="button" href="https://www.linkedin.com/in/jordanmrfox" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="button" href="https://github.com/jmrfox" target="_blank" rel="noopener">GitHub</a>
-        <a class="button" href="docs/JMRFox_CV.pdf" target="_blank" rel="noopener">Resume</a>
-      </div>
-    </section>
-
-    <section class="section" id="projects">
-      <h2>Some of my code repos:</h2>
-      <div class="card-grid">
-        <article class="card">
-          <h3><a href="https://github.com/jmrfox/swctools" target="_blank" rel="noopener">swctools</a></h3>
-          <p>Handling of SWC-format neuronal morphology data.</p>
-        </article>
-        <article class="card">
-          <h3><a href="https://github.com/jmrfox/jscip" target="_blank" rel="noopener">jscip</a></h3>
-          <p>Tools for management of numerical parameters for scientific simulations.</p>
-        </article>
-        <article class="card">
-          <h3><a href="https://gitlab.com/penalab/mcf2swc" target="_blank" rel="noopener">mcf2swc</a></h3>
-          <p>Rocust pipeline for skeletonization of neurite meshes.
-            See my poster about this below.
+      <pre class="ascii" aria-hidden="true">┌──────────────────────────────────────┐
+│  COMPUTATIONAL SCIENTIST  ·  v1.0   │
+└──────────────────────────────────────┘</pre>
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1>Hi, I'm Jordan!</h1>
+          <p class="lead">
+            I'm a computational scientist working at the intersection of neuroscience, physics, and software.
+            Currently a postdoctoral researcher at Albert Einstein College of Medicine in New York City, where I
+            study sound localization in the barn owl auditory system through high-resolution biophysical simulation.
           </p>
-        </article>
-        <article class="card">
-          <h3><a href="https://github.com/jmrfox/compneuro_software_wiki/wiki" target="_blank" rel="noopener">CompNeuro Software Wiki</a></h3>
-          <p>Wiki for modern computational neuroscience software organized by problem and application.</p>
-        </article>
-        <article class="card">
-          <h3><a href="https://github.com/jmrfox/pypet_rebuild" target="_blank" rel="noopener">Pypet Rebuild</a></h3>
-          <p>Rebuild of the pypet library for parameter sweeps and parallelization.</p>
-        </article>
-        <article class="card">
-          <h3><a href="https://github.com/jmrfox/spinbox" target="_blank" rel="noopener">spinbox</a></h3>
-          <p>Framework for calculations related to quantum Monte Carlo simulations, particularly imaginary-time Green's
-            functions. (Very specific use case, but still has pedagogical value.)</p>
-        </article>
+          <div class="cta">
+            <a class="button primary" href="mailto:jordanmrfox@gmail.com">Email me</a>
+            <a class="button" href="https://github.com/jmrfox" target="_blank" rel="noopener">GitHub</a>
+            <a class="button" href="https://www.linkedin.com/in/jordanmrfox" target="_blank"
+              rel="noopener">LinkedIn</a>
+            <a class="button" href="docs/JMRFox_CV.pdf" target="_blank" rel="noopener">Resume</a>
+          </div>
+        </div>
+        <img src="assets/me.png" alt="Portrait of Jordan M. R. Fox" class="avatar" />
       </div>
     </section>
 
-    <section class="section" id="presentations">
-      <h2>Selected posters and slides:</h2>
-      <div class="card-grid">
-        <article class="card">
-          <h3><a href="docs/sfn25_poster.pdf" target="_blank" rel="noopener">High-resolution Computational Simulation of
-              Auditory Neurons in the Barn Owl</a></h3>
-          <p>Poster presented at the American Society for Neuroscience 2025 conference.</p>
-        </article>
+    <section class="section" id="highlights">
+      <div class="section-header">
+        <h2>Research Highlights</h2>
+      </div>
+      <div class="card-grid" id="highlights-grid">
+        <noscript>
+          <article class="card highlight-card">
+            <h3>Auditory Neuroscience Pipeline</h3>
+            <p>Postdoc at Albert Einstein College of Medicine — biophysical simulation of barn owl sound-localization
+              neurons.</p>
+          </article>
+          <article class="card highlight-card">
+            <h3>DOE SCGF Fellow</h3>
+            <p>Graduate fellowship at Lawrence Livermore National Laboratory, theoretical nuclear physics group.</p>
+          </article>
+        </noscript>
       </div>
     </section>
 
-    <section class="section" id="papers">
-      <h2>Selected papers:</h2>
-      <div class="card-grid">
-        <article class="card">
-          <h3><a href="https://arxiv.org/abs/2407.14632" target="_blank" rel="noopener">Restricted Boltzmann Machines
-              Propagators for
-              Auxiliary Field Diffusion Monte Carlo</a></h3>
-          <p>The result of my work in the theoretical physics group at Argonne National Laboratory.</p>
-        </article>
-        <article class="card">
-          <h3><a href="https://arxiv.org/abs/2403.16389" target="_blank" rel="noopener">Illuminating Systematic Trends
-              in Nuclear Data with Generative Machine Learning Models</a></h3>
-          <p>Half of my PhD dissertation. Deep learning models for nuclear scattering data.</p>
-        </article>
-        <article class="card">
-          <h3><a href="https://arxiv.org/abs/2206.14956" target="_blank" rel="noopener">Uncertainty quantification of
-              transition operators in the empirical shell model</a></h3>
-          <p>The other half of my PhD dissertation. Uncertainty quantification of transition operators in the nuclear
-            shell model.</p>
-        </article>
-        <article class="card">
-          <h3><a href="https://scholarship.claremont.edu/cgu_etd/445/" target="_blank" rel="noopener">Data-driven
-              methods for nuclear physics</a></h3>
-          <p>My PhD dissertation.</p>
-        </article>
+    <section class="section" id="software">
+      <div class="section-header">
+        <h2>Software</h2>
+      </div>
+      <p class="section-intro">Curated open-source projects. Full list at <a href="https://github.com/jmrfox"
+          target="_blank" rel="noopener">github.com/jmrfox</a>.</p>
+      <div class="card-grid" id="projects-grid">
+        <noscript>
+          <article class="card">
+            <h3><a href="https://github.com/jmrfox/swctools" target="_blank" rel="noopener">swctools</a></h3>
+            <p>Handling of SWC-format neuronal morphology data.</p>
+          </article>
+          <article class="card">
+            <h3><a href="https://github.com/jmrfox/spinbox" target="_blank" rel="noopener">spinbox</a></h3>
+            <p>Framework for quantum Monte Carlo calculations.</p>
+          </article>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="section" id="research">
+      <div class="section-header">
+        <h2>Research</h2>
+      </div>
+
+      <h3 class="subsection-title">Publications</h3>
+      <div class="card-grid" id="papers-grid">
+        <noscript>
+          <article class="card">
+            <h3><a href="https://arxiv.org/abs/2407.14632" target="_blank" rel="noopener">Restricted Boltzmann
+                Machines Propagators for Auxiliary Field Diffusion Monte Carlo</a></h3>
+            <p class="meta">2024 · arXiv</p>
+          </article>
+          <article class="card">
+            <h3><a href="https://scholarship.claremont.edu/cgu_etd/445/" target="_blank" rel="noopener">Data-driven
+                methods for nuclear physics</a></h3>
+            <p class="meta">2022 · Dissertation</p>
+          </article>
+        </noscript>
+      </div>
+
+      <h3 class="subsection-title">Posters &amp; Talks</h3>
+      <div class="card-grid" id="presentations-grid">
+        <noscript>
+          <article class="card">
+            <h3><a href="docs/sfn25_poster.pdf" target="_blank" rel="noopener">High-resolution Computational Simulation
+                of Auditory Neurons in the Barn Owl</a></h3>
+            <p class="meta">2025 · SfN</p>
+          </article>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="section" id="bio">
+      <div class="section-header">
+        <h2>About</h2>
+      </div>
+      <div class="card bio-card">
+        <p>I received a Bachelor's of Science in Physics and Mathematics from Seattle University.
+          I received my PhD in computational science from the joint program between San Diego State University and
+          Claremont Graduate University in California.
+          During that program, I was supported by the USDOE Office of Science Graduate Fellowship, working in tandem
+          with
+          the theoretical nuclear physics group at Lawrence Livermore National Laboratory. My dissertation focused on
+          data-driven methods for theoretical
+          nuclear physics: deep learning models for nuclear scattering data, and uncertainty quantification for
+          large-scale
+          calculations in the empirical shell model.</p>
+        <p>After graduation, I worked as a postdoctoral researcher at Argonne National Laboratory, where I developed
+          neural network-based improvements for large-scale quantum Monte Carlo simulations.
+          While at Argonne, I decided to transition from physics into computational neuroscience, and I had the
+          opportunity to do a postdoctoral fellowship at Albert Einstein College of Medicine, where I am now.
+          At Einstein, I have developed a robust computational pipeline for high-resolution morphology-accurate
+          biophysical simulation of auditory neurons in the barn owl sound-localization system.</p>
       </div>
     </section>
 
     <section class="section" id="contact">
-      <h2>Get in touch</h2>
+      <div class="section-header">
+        <h2>Get in touch</h2>
+      </div>
       <div class="card">
         <p>Currently open to collaborating on interesting problems and roles.</p>
         <p><strong>Email:</strong> <a href="mailto:jordanmrfox@gmail.com">jordanmrfox@gmail.com</a></p>
@@ -157,5 +179,10 @@
   </main>
 
   <footer>
-    <div class="container">© 2025 Jordan M. R. Fox</div>
+    <div class="container">&copy; 2026 Jordan M. R. Fox</div>
   </footer>
+
+  <script src="assets/site.js"></script>
+</body>
+
+</html>

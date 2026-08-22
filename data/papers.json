@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Restricted Boltzmann Machines Propagators for Auxiliary Field Diffusion Monte Carlo",
+    "url": "https://arxiv.org/abs/2407.14632",
+    "year": 2024,
+    "venue": "arXiv",
+    "tags": ["Nuclear Physics", "Machine Learning"],
+    "note": "Work from the theoretical physics group at Argonne National Laboratory."
+  },
+  {
+    "title": "Illuminating Systematic Trends in Nuclear Data with Generative Machine Learning Models",
+    "url": "https://arxiv.org/abs/2403.16389",
+    "year": 2024,
+    "venue": "arXiv",
+    "tags": ["Nuclear Physics", "Machine Learning"],
+    "note": "Half of my PhD dissertation. Deep learning models for nuclear scattering data."
+  },
+  {
+    "title": "Uncertainty quantification of transition operators in the empirical shell model",
+    "url": "https://arxiv.org/abs/2206.14956",
+    "year": 2022,
+    "venue": "arXiv",
+    "tags": ["Nuclear Physics"],
+    "note": "The other half of my PhD dissertation. Uncertainty quantification in the nuclear shell model."
+  },
+  {
+    "title": "Data-driven methods for nuclear physics",
+    "url": "https://scholarship.claremont.edu/cgu_etd/445/",
+    "year": 2022,
+    "venue": "Dissertation",
+    "tags": ["Nuclear Physics", "Machine Learning"],
+    "note": "My PhD dissertation."
+  }
+]
