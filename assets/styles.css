@@ -209,12 +209,14 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: var(--accent-2);
-  margin: 28px 0 14px;
+  margin: 40px 0 16px;
   padding-bottom: 6px;
   border-bottom: 2px dashed var(--border);
 }
 
-.subsection-title:first-of-type {
+/* Only collapse top margin when a subsection is the first content under the header */
+.section-header + .subsection-title,
+.section-intro + .subsection-title {
   margin-top: 0;
 }
 
@@ -226,6 +228,47 @@ h1 {
 
 .section-intro a {
   color: var(--accent);
+}
+
+/* Showcase */
+.showcase-card {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 20px;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.showcase-card:hover {
+  transform: none;
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+
+.showcase-copy h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.showcase-copy .cta {
+  margin-top: 14px;
+}
+
+.showcase-media {
+  min-width: 0;
+}
+
+.showcase-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 3px solid var(--border);
+  background: #000;
+}
+
+@media (max-width: 700px) {
+  .showcase-card {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Cards */
