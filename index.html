@@ -77,7 +77,7 @@
 
         <a href="#fun-software">Fun</a>
 
-        <a href="#contact">Contact</a>
+        <a href="contact.html">Contact</a>
 
       </nav>
 
@@ -98,22 +98,29 @@
           <h1>Hi, I'm Jordan!</h1>
 
           <p class="lead">
-
-            I'm a computational neuroscientist, research software engineer, and applied mathematician.
-
-            This website features a curated collection of my research, software, and other work.
-
+            <p>
+            I'm a computational neuroscientist, research software engineer, applied mathematician, and reformed theoretical physicist.
+            </p>
+            <p>
+              This website features a curated collection of my research, software, and other work.
+            </p>
+            <p>
+              I'm currently a <a href="https://us-rse.org/">research software engineer</a> at Columbia University's 
+              <a href="https://zuckermaninstitute.columbia.edu/">Zuckerman Institute</a>, 
+              <a href="https://ctn.zuckermaninstitute.columbia.edu/">Center for Theoretical Neuroscience</a>.
+            </p>
           </p>
 
           <div class="cta">
 
-            <a class="button primary" href="mailto:jordanmrfox@gmail.com">Email me</a>
+            <a class="button primary" href="contact.html">Contact me</a>
 
             <a class="button" href="https://github.com/jmrfox" target="_blank" rel="noopener">GitHub</a>
 
             <a class="button" href="https://www.linkedin.com/in/jordanmrfox" target="_blank" rel="noopener">LinkedIn</a>
 
-            <a class="button" href="docs/greyscale_cv.pdf" target="_blank" rel="noopener">Resume</a>
+            <a class="button" href="https://scholar.google.com/citations?hl=en&amp;user=7iGgy_8AAAAJ" target="_blank"
+              rel="noopener">Scholar</a>
 
           </div>
 
@@ -138,7 +145,8 @@
       <p class="section-intro">Curated open-source projects. Full list at <a href="https://github.com/jmrfox"
           target="_blank" rel="noopener">github.com/jmrfox</a>.</p>
 
-      <div class="card-grid" id="projects-grid">
+          
+          <div class="card-grid" id="projects-grid">
 
         <noscript>
 
@@ -151,58 +159,52 @@
           </article>
 
           <article class="card">
-
+            
             <h3><a href="https://gitlab.com/penalab/pymcfs" target="_blank" rel="noopener">pymcfs</a></h3>
-
+            
             <p>Python tools for multi-compartment cable fitting and morphology workflows.</p>
-
+            
           </article>
 
         </noscript>
 
       </div>
+      
+      <h3 class="subsection-title">Current project</h3>
+      <article class="card software-featured">
+        <div class="software-featured-grid">
+          <div class="software-featured-item">
+            <h3><a href="https://github.com/paninski-lab/lightning-pose" target="_blank"
+                rel="noopener">Lightning Pose</a></h3>
+            <p class="meta">Python · Behavioral neuroscience</p>
+            <p>
+              End-to-end framework for robust multi-view and single-view animal pose estimation,
+              with transformer architectures and temporal context for challenging recordings.
+            </p>
+            <div class="cta">
+              <a class="button primary" href="https://github.com/paninski-lab/lightning-pose" target="_blank"
+                rel="noopener">GitHub</a>
+              <a class="button" href="https://lightning-pose.readthedocs.io/en/latest/" target="_blank"
+                rel="noopener">Docs</a>
+            </div>
+          </div>
+          <div class="software-featured-item">
+            <h3><a href="https://github.com/paninski-lab/lightning-pose-app" target="_blank"
+                rel="noopener">Lightning Pose App</a></h3>
+            <p class="meta">TypeScript · GUI</p>
+            <p>
+              Browser-based workflow for pose projects: label data, train and evaluate models,
+              and run inference on new videos—including multi-view setups.
+            </p>
+            <div class="cta">
+              <a class="button primary" href="https://github.com/paninski-lab/lightning-pose-app" target="_blank"
+                rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </article>
 
     </section>
-
-
-
-    <section class="section" id="fun-software">
-
-      <div class="section-header">
-
-        <h2>Fun Software</h2>
-
-      </div>
-
-      <p class="section-intro">Side projects, experiments, and toys.</p>
-
-      <div class="card-grid" id="fun-projects-grid">
-
-        <noscript>
-
-          <article class="card">
-
-            <h3><a href="https://github.com/jmrfox/terraforge" target="_blank" rel="noopener">terraforge</a></h3>
-
-            <p>2D landscape generation.</p>
-
-          </article>
-
-          <article class="card">
-
-            <h3><a href="https://github.com/jmrfox/circlesearch" target="_blank" rel="noopener">circlesearch</a></h3>
-
-            <p>Jon Wild circle problem.</p>
-
-          </article>
-
-        </noscript>
-
-      </div>
-
-    </section>
-
-
 
     <section class="section" id="research">
 
@@ -251,7 +253,10 @@
 
       </div>
 
-      <h3 class="subsection-title">Showcase</h3>
+      <h3 class="subsection-title showcase-heading">
+        <span class="showcase-heading-label">Showcase</span>
+        <span class="showcase-heading-desc"><em>Biophysical simulation of auditory neurons in the barn owl with high-resolution morphology</em></span>
+      </h3>
       <article class="card showcase-card">
         <div class="showcase-copy">
           <h3><a href="https://github.com/jmrfox/toric_spines_sim" target="_blank" rel="noopener">toric_spines_sim</a>
@@ -282,7 +287,33 @@
 
     </section>
 
+    <section class="section" id="fun-software">
 
+      <div class="section-header">
+
+        <h2>Fun Software</h2>
+
+      </div>
+
+      <p class="section-intro">Side projects, experiments, and toys.</p>
+
+      <div class="card-grid" id="fun-projects-grid">
+
+        <noscript>
+
+          <article class="card">
+
+            <h3><a href="https://github.com/jmrfox/terraforge" target="_blank" rel="noopener">terraforge</a></h3>
+
+            <p>2D landscape generation.</p>
+
+          </article>
+
+        </noscript>
+
+      </div>
+
+    </section>
 
     <section class="section" id="bio">
 
@@ -355,11 +386,15 @@
 
         <p>Currently open to collaborating on interesting problems and roles.</p>
 
-        <p><strong>Email:</strong> <a href="mailto:jordanmrfox@gmail.com">jordanmrfox@gmail.com</a></p>
+        <div class="cta">
 
-        <p><strong>Elsewhere:</strong> <a href="https://github.com/jmrfox" target="_blank" rel="noopener">GitHub</a>
+          <a class="button primary" href="contact.html">Send a message</a>
 
-          · <a href="https://www.linkedin.com/in/jordanmrfox" target="_blank" rel="noopener">LinkedIn</a></p>
+          <a class="button" href="https://github.com/jmrfox" target="_blank" rel="noopener">GitHub</a>
+
+          <a class="button" href="https://www.linkedin.com/in/jordanmrfox" target="_blank" rel="noopener">LinkedIn</a>
+
+        </div>
 
       </div>
 

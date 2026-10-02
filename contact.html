@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Contact — Jordan M. R. Fox, PhD</title>
+
+  <meta name="description" content="Get in touch with Jordan M. R. Fox, PhD." />
+
+  <meta name="theme-color" content="#1c1917" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=VT323&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
+
+  <meta name="color-scheme" content="dark" />
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="container navbar">
+
+      <div class="brand"><a href="index.html">Jordan M. R. Fox, PhD</a> <span class="cursor"></span></div>
+
+      <nav>
+
+        <a href="index.html#bio">Bio</a>
+
+        <a href="index.html#research">Research</a>
+
+        <a href="index.html#software">Software</a>
+
+        <a href="index.html#fun-software">Fun</a>
+
+        <a href="contact.html" aria-current="page">Contact</a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main class="container">
+
+    <section class="section page-contact">
+
+      <div class="section-header">
+
+        <h2>Get in touch</h2>
+
+      </div>
+
+      <p class="section-intro"><a href="index.html">← Back to home</a></p>
+
+      <div class="card contact-card">
+
+        <p>Currently open to collaborating on interesting problems and roles.</p>
+
+        <p class="contact-elsewhere"><strong>Elsewhere:</strong> <a href="https://github.com/jmrfox" target="_blank"
+            rel="noopener">GitHub</a>
+          · <a href="https://www.linkedin.com/in/jordanmrfox" target="_blank" rel="noopener">LinkedIn</a></p>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <input type="text" name="_gotcha" class="contact-honeypot" tabindex="-1" autocomplete="off"
+            aria-hidden="true" />
+          <label>
+            Name
+            <input type="text" name="name" autocomplete="name" required maxlength="120" />
+          </label>
+          <label>
+            Your email
+            <input type="email" name="email" autocomplete="email" required maxlength="254" />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="6" required maxlength="5000"></textarea>
+          </label>
+          <button type="submit" class="button primary">Send message</button>
+          <p id="contact-form-status" class="contact-form-status" role="status" aria-live="polite" hidden></p>
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <div class="container">&copy; 2026 Jordan M. R. Fox</div>
+
+  </footer>
+
+  <script src="assets/site.js"></script>
+
+</body>
+
+</html>
