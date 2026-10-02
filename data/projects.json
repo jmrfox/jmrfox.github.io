@@ -14,27 +14,6 @@
     "tags": ["Computational Neuroscience"]
   },
   {
-    "name": "swctools",
-    "url": "https://github.com/jmrfox/swctools",
-    "description": "Handling of SWC-format neuronal morphology data.",
-    "language": "Python",
-    "tags": ["Neuroscience"]
-  },
-  {
-    "name": "spinegen",
-    "url": "https://github.com/jmrfox/spinegen",
-    "description": "Algorithmic generation of neural spine cable-graphs.",
-    "language": "Python",
-    "tags": ["Neuroscience"]
-  },
-  {
-    "name": "nexa",
-    "url": "https://github.com/jmrfox/nexa",
-    "description": "Experimental programming language inspired by neural statistics.",
-    "language": "Rust",
-    "tags": ["Neuroscience", "Language"]
-  },
-  {
     "name": "jscip",
     "url": "https://github.com/jmrfox/jscip",
     "description": "Tools for management of numerical parameters for scientific simulations.",
