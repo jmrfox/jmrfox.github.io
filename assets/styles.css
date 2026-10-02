@@ -130,6 +130,14 @@ h1 {
   margin: 0;
 }
 
+.lead p {
+  margin: 0 0 1em;
+}
+
+.lead p:last-child {
+  margin-bottom: 0;
+}
+
 .cta {
   margin-top: 24px;
   display: flex;
@@ -425,10 +433,6 @@ h1 {
 
 .card a:hover {
   text-decoration: underline;
-}
-
-.highlight-card h3 {
-  color: var(--accent-2);
 }
 
 .bio-card p {

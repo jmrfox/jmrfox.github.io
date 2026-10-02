@@ -1,14 +1,14 @@
 [
   {
     "name": "MASCAF",
-    "url": "https://gitlab.com/penalab/mascaf",
+    "url": "https://github.com/jmrfox/mascaf",
     "description": "Robust pipeline for fitting cable models to topologically complex surface meshes.",
     "language": "Python",
     "tags": ["Computational Neuroscience"]
   },
   {
     "name": "pymcfs",
-    "url": "https://gitlab.com/penalab/pymcfs",
+    "url": "https://github.com/jmrfox/pymcfs",
     "description": "Python tools for multi-compartment cable fitting and morphology workflows.",
     "language": "Python",
     "tags": ["Computational Neuroscience"]
